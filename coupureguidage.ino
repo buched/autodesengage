@@ -36,7 +36,7 @@ void setup() {
 
     pinMode(Relay, OUTPUT);
     pinMode(Ledetat, OUTPUT);
-
+    pinMode(A3,INPUT_PULLUP);
 
 }
 
