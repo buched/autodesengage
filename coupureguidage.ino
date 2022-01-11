@@ -63,7 +63,7 @@ Serial.print("conso : ");
 Serial.println(reel);
 //while (digitalRead(authsteer)== LOW) // future option
 //  {
-     if (reel>= ampfinal)
+     if ((abs(reel)/ 1000) >= ampfinal)
         {
               // Allume la LED en fonction de l'état du bouton
 //        etat = 1;
